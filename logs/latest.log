@@ -1,0 +1,127 @@
+[20:35:01] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:35:03] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:35:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:35:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:35:03] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:35:03] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:35:03] [main/INFO]: Reloading ResourceManager: Default
+[20:35:04] [Worker-Main-5/INFO]: Loaded 7 recipes
+[20:35:05] [Worker-Main-5/INFO]: Loaded 927 advancements
+[20:35:14] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[20:35:14] [Server thread/INFO]: Loading properties
+[20:35:14] [Server thread/INFO]: Default game type: SURVIVAL
+[20:35:14] [Server thread/INFO]: Generating keypair
+[20:35:14] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_271]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_271]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_271]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_271]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_271]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_271]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_271]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_271]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_271]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_271]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_271]
+	at zg$1.run(SourceFile:95) [server.jar:?]
+[20:35:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:35:16] [Server thread/INFO]: Using default channel type
+[20:35:27] [Server thread/INFO]: Preparing level "world"
+[20:35:27] [Server thread/WARN]: Unable to find spawn biome
+[20:35:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:35:40] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:35:40] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[20:35:41] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[20:35:41] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[20:35:42] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[20:35:42] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[20:35:43] [Worker-Main-9/INFO]: Preparing spawn area: 1%
+[20:35:43] [Worker-Main-9/INFO]: Preparing spawn area: 1%
+[20:35:44] [Worker-Main-9/INFO]: Preparing spawn area: 1%
+[20:35:44] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[20:35:45] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[20:35:45] [Worker-Main-7/INFO]: Preparing spawn area: 3%
+[20:35:46] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[20:35:46] [Worker-Main-7/INFO]: Preparing spawn area: 3%
+[20:35:47] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[20:35:47] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[20:35:48] [Worker-Main-8/INFO]: Preparing spawn area: 9%
+[20:35:48] [Worker-Main-7/INFO]: Preparing spawn area: 10%
+[20:35:49] [Worker-Main-9/INFO]: Preparing spawn area: 10%
+[20:35:49] [Worker-Main-7/INFO]: Preparing spawn area: 12%
+[20:35:50] [Worker-Main-7/INFO]: Preparing spawn area: 12%
+[20:35:50] [Worker-Main-8/INFO]: Preparing spawn area: 12%
+[20:35:51] [Worker-Main-7/INFO]: Preparing spawn area: 12%
+[20:35:51] [Worker-Main-8/INFO]: Preparing spawn area: 12%
+[20:35:52] [Worker-Main-7/INFO]: Preparing spawn area: 12%
+[20:35:52] [Worker-Main-7/INFO]: Preparing spawn area: 18%
+[20:35:53] [Worker-Main-7/INFO]: Preparing spawn area: 18%
+[20:35:53] [Worker-Main-8/INFO]: Preparing spawn area: 18%
+[20:35:54] [Worker-Main-8/INFO]: Preparing spawn area: 18%
+[20:35:54] [Worker-Main-8/INFO]: Preparing spawn area: 18%
+[20:35:55] [Worker-Main-8/INFO]: Preparing spawn area: 18%
+[20:35:55] [Worker-Main-7/INFO]: Preparing spawn area: 24%
+[20:35:56] [Worker-Main-8/INFO]: Preparing spawn area: 24%
+[20:35:56] [Worker-Main-8/INFO]: Preparing spawn area: 24%
+[20:35:57] [Worker-Main-7/INFO]: Preparing spawn area: 24%
+[20:35:57] [Worker-Main-7/INFO]: Preparing spawn area: 24%
+[20:35:58] [Worker-Main-8/INFO]: Preparing spawn area: 24%
+[20:35:58] [Worker-Main-8/INFO]: Preparing spawn area: 24%
+[20:35:59] [Worker-Main-9/INFO]: Preparing spawn area: 33%
+[20:35:59] [Worker-Main-9/INFO]: Preparing spawn area: 33%
+[20:36:00] [Worker-Main-7/INFO]: Preparing spawn area: 33%
+[20:36:00] [Worker-Main-9/INFO]: Preparing spawn area: 33%
+[20:36:01] [Worker-Main-8/INFO]: Preparing spawn area: 33%
+[20:36:01] [Worker-Main-9/INFO]: Preparing spawn area: 33%
+[20:36:06] [Worker-Main-8/INFO]: Preparing spawn area: 40%
+[20:36:06] [Worker-Main-8/INFO]: Preparing spawn area: 40%
+[20:36:06] [Worker-Main-8/INFO]: Preparing spawn area: 40%
+[20:36:06] [Worker-Main-8/INFO]: Preparing spawn area: 40%
+[20:36:06] [Worker-Main-8/INFO]: Preparing spawn area: 40%
+[20:36:06] [Worker-Main-8/INFO]: Preparing spawn area: 40%
+[20:36:06] [Worker-Main-8/INFO]: Preparing spawn area: 40%
+[20:36:06] [Worker-Main-8/INFO]: Preparing spawn area: 40%
+[20:36:09] [Worker-Main-8/INFO]: Preparing spawn area: 47%
+[20:36:09] [Worker-Main-9/INFO]: Preparing spawn area: 47%
+[20:36:09] [Worker-Main-8/INFO]: Preparing spawn area: 47%
+[20:36:09] [Worker-Main-9/INFO]: Preparing spawn area: 47%
+[20:36:09] [Worker-Main-8/INFO]: Preparing spawn area: 47%
+[20:36:09] [Worker-Main-9/INFO]: Preparing spawn area: 47%
+[20:36:11] [Worker-Main-8/INFO]: Preparing spawn area: 59%
+[20:36:11] [Worker-Main-8/INFO]: Preparing spawn area: 59%
+[20:36:11] [Worker-Main-8/INFO]: Preparing spawn area: 59%
+[20:36:11] [Worker-Main-8/INFO]: Preparing spawn area: 59%
+[20:36:15] [Worker-Main-8/INFO]: Preparing spawn area: 66%
+[20:36:15] [Worker-Main-8/INFO]: Preparing spawn area: 66%
+[20:36:15] [Worker-Main-8/INFO]: Preparing spawn area: 66%
+[20:36:15] [Worker-Main-8/INFO]: Preparing spawn area: 66%
+[20:36:15] [Worker-Main-8/INFO]: Preparing spawn area: 66%
+[20:36:15] [Worker-Main-8/INFO]: Preparing spawn area: 66%
+[20:36:15] [Worker-Main-8/INFO]: Preparing spawn area: 66%
+[20:36:15] [Worker-Main-8/INFO]: Preparing spawn area: 66%
+[20:36:15] [Worker-Main-8/INFO]: Preparing spawn area: 66%
+[20:36:19] [Worker-Main-9/INFO]: Preparing spawn area: 82%
+[20:36:19] [Worker-Main-8/INFO]: Preparing spawn area: 82%
+[20:36:19] [Worker-Main-9/INFO]: Preparing spawn area: 82%
+[20:36:19] [Worker-Main-9/INFO]: Preparing spawn area: 82%
+[20:36:19] [Worker-Main-9/INFO]: Preparing spawn area: 82%
+[20:36:19] [Worker-Main-9/INFO]: Preparing spawn area: 82%
+[20:36:19] [Worker-Main-9/INFO]: Preparing spawn area: 82%
+[20:36:19] [Worker-Main-9/INFO]: Preparing spawn area: 82%
+[20:36:20] [Worker-Main-9/INFO]: Preparing spawn area: 96%
+[20:36:20] [Worker-Main-9/INFO]: Preparing spawn area: 96%
+[20:36:20] [Server thread/INFO]: Time elapsed: 40396 ms
+[20:36:20] [Server thread/INFO]: Done (53.561s)! For help, type "help"
+[20:36:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[21:01:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6410ms or 128 ticks behind
+[21:02:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2896ms or 57 ticks behind
+[21:06:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3206ms or 64 ticks behind
+[21:08:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2506ms or 50 ticks behind
+[21:08:26] [User Authenticator #1/INFO]: UUID of player neon_fist30 is 216dbeda-0ee2-4e74-86d2-8cb9336dda8a
+[21:08:29] [Server thread/INFO]: neon_fist30[/127.0.0.1:54890] logged in with entity id 414 at (-3.5, 88.0, -2.5)
+[21:08:32] [Server thread/INFO]: neon_fist30 joined the game
+[21:08:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26362ms or 527 ticks behind
+[21:09:19] [Server thread/INFO]: neon_fist30 lost connection: Disconnected
+[21:09:19] [Server thread/INFO]: neon_fist30 left the game
+[21:09:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26485ms or 529 ticks behind
